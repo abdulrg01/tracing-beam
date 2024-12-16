@@ -78,24 +78,34 @@ export default function Hero() {
                   <FaArrowDown className="w-4 h-3 me-2 ms-1" />
                 </button>
                 <div className="flex items-center gap-1 -space-x-4 rtl:space-x-reverse mt-3 items">
-                  <div className="flex items-center gap-1 -space-x-4 rtl:space-x-reverse">
+                  <div className="flex -space-x-4 rtl:space-x-reverse">
                     <Image
-                      src="/speaker1.png"
+                      src="/profile1.jpg"
                       alt="home"
                       width={25}
                       height={25}
+                      className="border-2 border-white rounded-full dark:border-gray-800"
                     />
                     <Image
-                      src="/speaker1.png"
+                      src="/profile2.jpg"
                       alt="home"
                       width={25}
                       height={25}
+                      className="border-2 border-white rounded-full dark:border-gray-800"
                     />
                     <Image
-                      src="/speaker1.png"
+                      src="/profile3.jpg"
                       alt="home"
                       width={25}
                       height={25}
+                      className="border-2 border-white rounded-full dark:border-gray-800"
+                    />
+                    <Image
+                      src="/profile5.jpg"
+                      alt="home"
+                      width={25}
+                      height={25}
+                      className="border-2 border-white rounded-full dark:border-gray-800"
                     />
                   </div>
                   <div className="pl-5 mt-2 text-sm flex flex-col items-start gap-1">
